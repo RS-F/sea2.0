@@ -1,0 +1,37 @@
+cd clmystery-master
+cat instructions
+cd mystery
+ls
+ls -l
+head -20 crimescene
+head -20 people
+head -20 veh
+head -20 vehicles
+head -20 interviews/interview-000296
+head -20 memberships/AAA
+head -20 streets/Abbot_Street
+ls interviews
+ls streets
+ls memberships
+grep "CLUE" crimescene
+grep "Annabel" people
+head -n 40 streets/Hart_Place | tail -1
+head -n 50 interviews/interview-47246024
+head -n 179 streets/Buckingham_Place | tail -1
+head -n 50 interviews/interview-699607
+grep L337 vehicles
+grep -A 5 L337 vehicles
+grep -A 5 L337 vehicles | grep -A 5 Honda
+grep -A 5 L337 vehicles | grep -A 4 Honda
+grep -A 5 L337 vehicles | grep -A 4 Honda | grep -A 3 Blue
+cat memberships/AAA memberships/Delta_SkyMiles memberships/Terminal_City_Library memberships/Museum_of_Bash_History | grep "Erika Owens"
+cat memberships/AAA memberships/Delta_SkyMiles memberships/Terminal_City_Library memberships/Museum_of_Bash_History | grep "Aron Pilhofer"
+cat memberships/AAA memberships/Delta_SkyMiles memberships/Terminal_City_Library memberships/Museum_of_Bash_History | grep "Heather Billings"
+cat memberships/AAA memberships/Delta_SkyMiles memberships/Terminal_City_Library memberships/Museum_of_Bash_History | grep "Joe Germuska"
+cat memberships/AAA memberships/Delta_SkyMiles memberships/Terminal_City_Library memberships/Museum_of_Bash_History | grep "Jeremy Bowers"
+cat memberships/AAA memberships/Delta_SkyMiles memberships/Terminal_City_Library memberships/Museum_of_Bash_History | grep "Jacqui Maher"
+grep "Jacqui Maher" people
+grep "Jeremy Bowers" people
+echo "Jeremy Bowers"
+echo Jeremy Bowers
+history > ../solution.log
